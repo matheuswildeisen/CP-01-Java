@@ -22,7 +22,7 @@ As principais funcionalidades implementadas neste sistema incluem:
 O projeto é composto pelas seguintes classes Java:
 
 *   `Main.java`: Contém o método `main` e serve como ponto de entrada da aplicação. Demonstra o uso das funcionalidades do `SistemaERS` através de uma sequência de operações de cadastro, alocação, devolução e relatórios.
-*   `SistemaERS.java`: A classe principal que orquestra as operações do sistema. Gerencia as listas de `Colaborador`, `Recurso` e `Alocacao`, e implementa os métodos para cadastrar, buscar, alocar, devolver e exibir informações, além das funcionalidades de promoção e cálculo de custo.
+*   `cpjava.iml`: A classe principal que orquestra as operações do sistema. Gerencia as listas de `Colaborador`, `Recurso` e `Alocacao`, e implementa os métodos para cadastrar, buscar, alocar, devolver e exibir informações, além das funcionalidades de promoção e cálculo de custo.
 *   `Colaborador.java`: Representa a entidade Colaborador. Contém atributos como ID, nome, cargo, salário, status de atividade e data de admissão. Inclui métodos para promover, ativar/desativar e exibir informações do colaborador.
 *   `Recurso.java`: Representa a entidade Recurso. Possui atributos como ID, nome, categoria, status de disponibilidade, valor estimado e o ID do colaborador que o possui (se alocado). Implementa métodos para alocar, devolver e verificar se o recurso pode ser alocado.
 *   `Alocacao.java`: Representa um registro de alocação, associando um `colaboradorId` a um `recursoId` em uma determinada `data`, com uma `observacao` opcional.
